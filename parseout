@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<EOF
+parseout - Copy parsed markdown files to a specified output directory
+
+Usage:
+  parseout <out_dir> <files...>
+  parseout -h | --help
+
+Examples:
+  parseout ./parsed document.pdf
+  parseout ./parsed scotus_118/*.pdf
+
+Requires: semtools (https://github.com/run-llama/semtools)
+EOF
+}
+
+if [[ $# -lt 1 ]] || [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]; then
+  usage
+  exit 0
+fi
+
+out_dir="$1"
+shift
+
+if [[ $# -lt 1 ]]; then
+  echo "Error: No input files specified" >&2
+  usage
+  exit 1
+fi
+
+mkdir -p "$out_dir"
+
+parse "$@" \
+  | while IFS= read -r md; do
+      cp -f "$md" "$out_dir/"
+      echo "$out_dir/$(basename "$md")"
+    done
