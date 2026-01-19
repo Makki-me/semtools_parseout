@@ -6,7 +6,7 @@ A simple wrapper for [semtools](https://github.com/run-llama/semtools) `parse` t
 
 ```bash
 mkdir -p ~/.local/bin
-curl -fsSL https://raw.githubusercontent.com/<user>/semtools_parseout/main/parseout -o ~/.local/bin/parseout
+curl -fsSL https://raw.githubusercontent.com/jerryjliu/semtools_parseout/main/parseout -o ~/.local/bin/parseout
 chmod +x ~/.local/bin/parseout
 ```
 
